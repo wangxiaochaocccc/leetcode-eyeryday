@@ -17,6 +17,11 @@ eg: <a href="https://leetcode-cn.com/problems/lowest-common-ancestor-of-a-binary
 
 eg: <a href="https://leetcode-cn.com/problems/search-in-a-binary-search-tree/">700-二叉搜索树的搜索</a>
 
+### 1.3 二叉搜索树可以和链表结合来解决问题，达到我们想要的目的
+
+eg: <a href="https://leetcode-cn.com/problems/NYBBNL/">剑指offer II 54 展平二插搜索树</a>
+
+
 ## 二、N叉树的遍历
 
 ### 1.1 N叉树的前后遍历都是固定的模板
