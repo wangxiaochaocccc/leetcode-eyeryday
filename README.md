@@ -16,3 +16,12 @@ eg: <a href="https://leetcode-cn.com/problems/lowest-common-ancestor-of-a-binary
 ### 1.2   寻找二叉搜索树中的部分子树，只要找到根节点就可以了，直接返回根节点，这就是一棵子树了。不要想复杂了。
 
 eg: <a href="https://leetcode-cn.com/problems/search-in-a-binary-search-tree/">700-二叉搜索树的搜索</a>
+
+## 二、N叉树的遍历
+
+### 1.1 N叉树的前后遍历都是固定的模板
+
+ 不同之处就在于 是先遍历再往数组内存，还是先存后遍历
+ 
+<img width="417" alt="image" src="https://user-images.githubusercontent.com/63868915/164952515-ec70507a-a9cb-4fc1-abe9-c0e9f1625416.png">
+
