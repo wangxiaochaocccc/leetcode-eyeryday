@@ -30,6 +30,26 @@ eg: <a href="https://leetcode-cn.com/problems/NYBBNL/">剑指offer II 54 展平�
  
 <img width="417" alt="image" src="https://user-images.githubusercontent.com/63868915/164952515-ec70507a-a9cb-4fc1-abe9-c0e9f1625416.png">
 
+### 1.2 N叉树的深度
+
+这道题就是带着深度值进行深度优先遍历，
+
+```
+var maxDepth = function(root) {
+   const dfs = (root,depth)=> {
+       if(!root) return 0;
+        depth++
+        let temp = depth
+        for(let item of root.children) {
+            depth = Math.max(depth,dfs(item,temp))
+        }
+        return depth
+   }
+   return dfs(root,0)
+  
+};
+```
+
 ## 三、二叉树路径相关
 
 求二叉树路径相关问题，基本都是声明一个数组，把结果存到数组中，递归处理左右子树，判断边界情况返回。
